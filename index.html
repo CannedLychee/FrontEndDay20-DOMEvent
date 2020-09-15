@@ -48,7 +48,7 @@
 		let fade_btn = document.getElementById('fade-btn')
 		let fade_obj = document.getElementById('fade-obj')
 		let tp,tn
-		let t = 100
+		let t = 1000
 		let i
 		let flag = true //true为淡出，false为淡入
 		fade_btn.onclick = function() {
@@ -72,7 +72,7 @@
 				return
 			}
 			//break不能写在函数中，换用return false等返回退出函数
-			setTimeout("fade()",20)
+			setTimeout("fade()",1)
 		}
 		
 
